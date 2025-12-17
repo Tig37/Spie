@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mes petits sons</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Mes petits sons</h1>
+    <p>Clique sur un bouton pour écouter un son. Ajoute tes fichiers dans <code>sounds/</code> et mets-les dans <code>sounds.json</code>.</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <button id="stopAll">⏹ Arrêter tout</button>
+    </section>
+    <section id="playlist" class="grid" aria-live="polite">
+      <div class="loading">Chargement de la playlist…</div>
+    </section>
+  </main>
+
+  <footer>
+    <small>© Mes petits sons</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

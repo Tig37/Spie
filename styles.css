@@ -1,0 +1,8 @@
+
+body { font-family: Arial, sans-serif; background: #0f172a; color: #e5e7eb; margin: 0; }
+header, footer { text-align: center; padding: 1rem; }
+.panel { text-align: center; margin: 1rem; }
+#stopAll { background: #ef4444; color: white; padding: .8rem 1rem; border: none; border-radius: 8px; cursor: pointer; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; padding: 1rem; }
+.card { background: #1f2937; padding: 1rem; border-radius: 8px; text-align: center; }
+.play-btn { background: #22c55e; color: #062211; padding: .6rem .9rem; border: none; border-radius: 8px; cursor: pointer; }
